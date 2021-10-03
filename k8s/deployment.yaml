@@ -23,7 +23,7 @@ spec:
             - name: MONGO_INITDB_ROOT_PASSWORD
               value: "pwd"
 ---
-# servide do mongo
+# servide do  mongo
 apiVersion: v1
 kind: Service
 metadata:
@@ -67,7 +67,7 @@ spec:
             - name: MONGODB_PASSWORD
               value: "pwd"
 ---
-# Service app web
+# Service app web 
 apiVersion: v1
 kind: Service
 metadata:
